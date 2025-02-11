@@ -10,15 +10,15 @@ Aqui estão algumas capturas de tela que mostram como a aplicação funciona:
 
 ## Tela Inicial
 
-![Tela inicial de CatApp](public/images/cat-app-home.png)
+![Tela inicial de CatApp](cat-app/public/images/cat-app-home.png)
 
 ## Tela de Edição de Gato
 
-![Tela de Edição](public/images/edit.png)
+![Tela de Edição](cat-app/public/images/edit.png)
 
 ## Servidor Backend para CRUD de Gatos (Node.js e Express)
 
-![Backend - API de Gatos](public/images/backend-localhost4000.png)
+![Backend - API de Gatos](cat-app/public/images/backend-localhost4000.png)
 
 *✔ API RESTful* para gerenciar gatos.
 *✔ CRUD completo:* Adicionar, listar, editar e excluir gatos.
