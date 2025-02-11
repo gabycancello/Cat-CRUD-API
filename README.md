@@ -88,13 +88,49 @@ DELETE	/users/:id	Remove um gato
 ### 📌 6. Aprendizados e Melhorias Futuras
 
  ✅ Aprendizados:
-	•	Construi um CRUD completo usando React e Express.
-	•	Aprendi a manipular JSON como banco de dados temporário.
-	•	Usei modais e notificações para melhorar a UX.
+ 
+• Construi um CRUD completo usando React e Express.
+• Aprendi a manipular JSON como banco de dados temporário.
+• Usei modais e notificações para melhorar a UX.
 
 📌 Melhorias futuras:
-	•	Conectar com um banco de dados real (MongoDB ou PostgreSQL), substituindo o arquivo JSON.
-	•	Criar autenticação (JWT) para garantir que apenas usuários autorizados possam editar ou excluir gatos.
-	•	Melhorar o design com Styled Components ou TailwindCSS.
-  •	Testes: Adicionar alguns testes unitários com Jest para o backend e frontend para melhor qualidade do código.
+
+• Conectar com um banco de dados real (MongoDB ou PostgreSQL), substituindo o arquivo JSON.
+• Criar autenticação (JWT) para garantir que apenas usuários autorizados possam editar ou excluir gatos.
+• Melhorar o design com Styled Components ou TailwindCSS.
+• Adicionar funcionalidades como pesquisa e filtro de gatos.
+• Testes: Adicionar alguns testes unitários com Jest para o backend e frontend para melhor qualidade do código.
+
+ ## Contribuições
+
+Contribuições são sempre bem-vindas! Se você gostaria de melhorar ou adicionar algo ao projeto, siga as etapas abaixo:
+
+1. Faça um Fork do repositório para a sua conta GitHub.
+ 
+2. Clone o seu fork localmente:
+
+*git clone https://github.com/seu-usuario/nome-do-repositorio.git*
+
+3. Crie uma nova branch para suas mudanças:
+
+*git checkout -b minha-nova-feature*
+
+4. Faça as alterações e commit suas modificações:
+
+*git commit -m* "Descrição das mudanças feitas"
+
+5. Envie as mudanças para o seu fork no GitHub:
+
+*git push origin minha-nova-feature*
+
+6. Abra um Pull Request com as mudanças, descrevendo claramente o que foi alterado e como isso contribui para o projeto.
+
+Agradeço por considerar contribuir para este projeto! Se você tiver alguma dúvida ou sugestão, fique à vontade para abrir uma issue.
+
+ ## Contato
+
+Caso tenha dúvidas ou queira discutir sobre o projeto, entre em contato:
+
+- *Email*: gabicancello@gmail.com
+- *LinkedIn*: https://www.linkedin.com/in/gabriela-cancello-aa73071b8/
  
