@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Charlie",
+    "age": 4,
+    "breed": "Khao Manee",
+    "image": "/images/charlie.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Pistacja",
+    "age": 1,
+    "breed": "Siamese",
+    "image": "/images/pistacja.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Szafir",
+    "age": 4,
+    "breed": "Scottish Fold",
+    "image": "/images/szafir.jpg"
+  }
+]
