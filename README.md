@@ -28,7 +28,7 @@ Aqui estão algumas capturas de tela que mostram como a aplicação funciona:
 
 *✔ Armazenamento* temporário em JSON (sem banco de dados).
 
-###📌 2. Tecnologias Utilizadas
+##📌 2. Tecnologias Utilizadas
 
 ✅ Back-end:
 *•	Node.js*
@@ -39,7 +39,8 @@ Aqui estão algumas capturas de tela que mostram como a aplicação funciona:
 *•	React Modal*
 *•	Fetch*
 
-###📌 3. Estrutura do Projeto
+
+##📌 3. Estrutura do Projeto
 
 *📂 cat-api (Servidor Express - Back-end)*
 
@@ -71,14 +72,17 @@ Aqui estão algumas capturas de tela que mostram como a aplicação funciona:
 
 *┣ 📄 index.js → Ponto de entrada do React.*
 
+
 #📌 4. Como Rodar o Projeto?
 
-### 1️⃣ Clonar o repositório
+## 1️⃣ Clonar o repositório
 
 *git clone https://github.com/seu-usuario/cat-crud.git*
 *cd cat-crud*
 
-### 2️⃣ Instalar as dependências
+## 2️⃣ Instalar as dependências
+
+
 
 Back-end (Node.js / Express)
 
@@ -98,6 +102,7 @@ Front-end (React)
 
 Acesse em: *http://localhost:3000* 
 
+
 ### 📌 5. Endpoints da API
 
 Método	Rota	Descrição
@@ -105,6 +110,7 @@ GET	/users	Retorna todos os gatos
 POST	/users	Adiciona um novo gato
 PUT	/users/:id	Atualiza um gato
 DELETE	/users/:id	Remove um gato
+
 
 ### 📌 6. Aprendizados e Melhorias Futuras
 
@@ -115,6 +121,8 @@ DELETE	/users/:id	Remove um gato
 • Aprendi a manipular JSON como banco de dados temporário.
 
 • Usei modais e notificações para melhorar a UX.
+
+
 
 📌 Melhorias futuras:
 
@@ -128,31 +136,40 @@ DELETE	/users/:id	Remove um gato
 
 • Testes: Adicionar alguns testes unitários com Jest para o backend e frontend para melhor qualidade do código.
 
+
+
  ## Contribuições
 
 Contribuições são sempre bem-vindas! Se você gostaria de melhorar ou adicionar algo ao projeto, siga as etapas abaixo:
 
 1. Faça um Fork do repositório para a sua conta GitHub.
- 
+
+
 2. Clone o seu fork localmente:
 
 *git clone https://github.com/seu-usuario/nome-do-repositorio.git*
+
 
 3. Crie uma nova branch para suas mudanças:
 
 *git checkout -b minha-nova-feature*
 
+
 4. Faça as alterações e commit suas modificações:
 
 *git commit -m* "Descrição das mudanças feitas"
+
 
 5. Envie as mudanças para o seu fork no GitHub:
 
 *git push origin minha-nova-feature*
 
+
 6. Abra um Pull Request com as mudanças, descrevendo claramente o que foi alterado e como isso contribui para o projeto.
 
 Agradeço por considerar contribuir para este projeto! Se você tiver alguma dúvida ou sugestão, fique à vontade para abrir uma issue.
+
+
 
  ## Contato
 
