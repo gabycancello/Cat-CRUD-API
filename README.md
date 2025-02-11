@@ -60,7 +60,8 @@ Aqui estão algumas capturas de tela que mostram como a aplicação funciona:
 
 
 <br>
-*📂 cat-app (Aplicação React - Front-end)*
+
+📂 *cat-app (Aplicação React - Front-end)*
 
 *┣ 📂 src/components/ → Componentes React.*
 
@@ -81,7 +82,7 @@ Aqui estão algumas capturas de tela que mostram como a aplicação funciona:
 *┣ 📄 index.js → Ponto de entrada do React.*
 
 <br>
-# 📌 4. Como Rodar o Projeto?
+## 📌 4. Como Rodar o Projeto?
 
 ## 1️⃣ Clonar o repositório
 
@@ -135,7 +136,7 @@ DELETE	/users/:id	Remove um gato
 
 <br>
 
-📌 Melhorias futuras:
+### 📌 Melhorias futuras:
 
 • Conectar com um banco de dados real (MongoDB ou PostgreSQL), substituindo o arquivo JSON.
 
