@@ -4,6 +4,8 @@
 
 📌 Objetivo: Criar um CRUD para gerenciar gatos, permitindo cadastrar, visualizar, editar e excluir 🐾.
 
+<br>
+
 ##📌Capturas de Tela
 
 Aqui estão algumas capturas de tela que mostram como a aplicação funciona:
@@ -20,6 +22,8 @@ Aqui estão algumas capturas de tela que mostram como a aplicação funciona:
 
 ![Backend - API de Gatos](cat-app/public/images/backend-localhost4000.png)
 
+<br>
+
 *✔ API RESTful* para gerenciar gatos.
 
 *✔ CRUD completo:* Adicionar, listar, editar e excluir gatos.
@@ -28,7 +32,9 @@ Aqui estão algumas capturas de tela que mostram como a aplicação funciona:
 
 *✔ Armazenamento* temporário em JSON (sem banco de dados).
 
-##📌 2. Tecnologias Utilizadas
+<br>
+
+## 📌 2. Tecnologias Utilizadas
 
 ✅ Back-end:
 *•	Node.js*
@@ -39,8 +45,10 @@ Aqui estão algumas capturas de tela que mostram como a aplicação funciona:
 *•	React Modal*
 *•	Fetch*
 
+<br>
 
-##📌 3. Estrutura do Projeto
+
+## 📌 3. Estrutura do Projeto
 
 *📂 cat-api (Servidor Express - Back-end)*
 
@@ -51,7 +59,7 @@ Aqui estão algumas capturas de tela que mostram como a aplicação funciona:
 *┣ 📄 package.json → Dependências do projeto.*
 
 
-
+<br>
 *📂 cat-app (Aplicação React - Front-end)*
 
 *┣ 📂 src/components/ → Componentes React.*
@@ -72,8 +80,8 @@ Aqui estão algumas capturas de tela que mostram como a aplicação funciona:
 
 *┣ 📄 index.js → Ponto de entrada do React.*
 
-
-#📌 4. Como Rodar o Projeto?
+<br>
+# 📌 4. Como Rodar o Projeto?
 
 ## 1️⃣ Clonar o repositório
 
@@ -102,6 +110,7 @@ Front-end (React)
 
 Acesse em: *http://localhost:3000* 
 
+<br>
 
 ### 📌 5. Endpoints da API
 
@@ -109,8 +118,9 @@ Método	Rota	Descrição
 GET	/users	Retorna todos os gatos
 POST	/users	Adiciona um novo gato
 PUT	/users/:id	Atualiza um gato
-DELETE	/users/:id	Remove um gato
+DELETE	/users/:id	Remove um gato  
 
+<br>
 
 ### 📌 6. Aprendizados e Melhorias Futuras
 
@@ -123,6 +133,7 @@ DELETE	/users/:id	Remove um gato
 • Usei modais e notificações para melhorar a UX.
 
 
+<br>
 
 📌 Melhorias futuras:
 
@@ -137,6 +148,7 @@ DELETE	/users/:id	Remove um gato
 • Testes: Adicionar alguns testes unitários com Jest para o backend e frontend para melhor qualidade do código.
 
 
+<br>
 
  ## Contribuições
 
@@ -144,32 +156,38 @@ Contribuições são sempre bem-vindas! Se você gostaria de melhorar ou adicion
 
 1. Faça um Fork do repositório para a sua conta GitHub.
 
+<br>
 
 2. Clone o seu fork localmente:
 
 *git clone https://github.com/seu-usuario/nome-do-repositorio.git*
 
+<br>
 
 3. Crie uma nova branch para suas mudanças:
 
 *git checkout -b minha-nova-feature*
 
+<br>
 
 4. Faça as alterações e commit suas modificações:
 
 *git commit -m* "Descrição das mudanças feitas"
 
+<br>
 
 5. Envie as mudanças para o seu fork no GitHub:
 
 *git push origin minha-nova-feature*
 
+<br>
 
 6. Abra um Pull Request com as mudanças, descrevendo claramente o que foi alterado e como isso contribui para o projeto.
 
 Agradeço por considerar contribuir para este projeto! Se você tiver alguma dúvida ou sugestão, fique à vontade para abrir uma issue.
 
 
+<br>
 
  ## Contato
 
