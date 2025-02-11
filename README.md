@@ -21,37 +21,54 @@ Aqui estão algumas capturas de tela que mostram como a aplicação funciona:
 ![Backend - API de Gatos](cat-app/public/images/backend-localhost4000.png)
 
 *✔ API RESTful* para gerenciar gatos.
+
 *✔ CRUD completo:* Adicionar, listar, editar e excluir gatos.
+
 *✔ React Modal:* Formulário intuitivo para cadastro/edição.
+
 *✔ Armazenamento* temporário em JSON (sem banco de dados).
 
 ###📌 2. Tecnologias Utilizadas
 
 ✅ Back-end:
-	*•	Node.js*
-	*•	Express.js*
+*•	Node.js*
+*•	Express.js*
 
 ✅ Front-end:
-	*•	React.js*
-	*•	React Modal*
-	*•	Fetch*
+*•	React.js*
+*•	React Modal*
+*•	Fetch*
 
 ###📌 3. Estrutura do Projeto
 
 *📂 cat-api (Servidor Express - Back-end)*
+
 *┣ 📂 data/ → Contém cats.json com os gatos armazenados.*
+
 *┣ 📄 server.js → Código do servidor Express.*
+
 *┣ 📄 package.json → Dependências do projeto.*
 
+
+
 *📂 cat-app (Aplicação React - Front-end)*
+
 *┣ 📂 src/components/ → Componentes React.*
+
 *┃ ┣ 📄 CatList.js → Lista de gatos.*
+
 *┃ ┣ 📄 CatForm.js → Formulário para adicionar/editar.*
+
 *┃ ┣ 📄 CatCard.js → Componente individual de um gato.*
+
 *┃ ┣ 📄 CatCard.css → Estilos do cartão.*
+
 *┃ ┣ 📄 CatForm.css → Estilos do formulário.*
+
 *┃ ┣ 📄 CatList.css → Estilos da lista.*
+
 *┣ 📄 App.js → Estrutura principal do React.*
+
 *┣ 📄 index.js → Ponto de entrada do React.*
 
 #📌 4. Como Rodar o Projeto?
@@ -66,13 +83,17 @@ Aqui estão algumas capturas de tela que mostram como a aplicação funciona:
 Back-end (Node.js / Express)
 
 *cd cat-api*
+
 *npm install*
+
 *node server.js*
 
 Front-end (React)
 
 *cd ../cat-app*
+
 *npm install*
+
 *npm start*
 
 Acesse em: *http://localhost:3000* 
@@ -90,15 +111,21 @@ DELETE	/users/:id	Remove um gato
  ✅ Aprendizados:
  
 • Construi um CRUD completo usando React e Express.
+
 • Aprendi a manipular JSON como banco de dados temporário.
+
 • Usei modais e notificações para melhorar a UX.
 
 📌 Melhorias futuras:
 
 • Conectar com um banco de dados real (MongoDB ou PostgreSQL), substituindo o arquivo JSON.
+
 • Criar autenticação (JWT) para garantir que apenas usuários autorizados possam editar ou excluir gatos.
+
 • Melhorar o design com Styled Components ou TailwindCSS.
+
 • Adicionar funcionalidades como pesquisa e filtro de gatos.
+
 • Testes: Adicionar alguns testes unitários com Jest para o backend e frontend para melhor qualidade do código.
 
  ## Contribuições
