@@ -6,7 +6,7 @@ const path = require("path"); // ✅ Importação do módulo path
 const app = express();
 const port = 4000;
 
-const filePath = path.join(__dirname, "cat-api", "data", "cats.json"); // ✅ Caminho do arquivo padronizado
+const filePath = path.join(__dirname, "data", "cats.json"); // ✅ Caminho do arquivo padronizado
 
 // Middleware para permitir JSON no body das requisições
 app.use(express.json());
@@ -14,11 +14,13 @@ app.use(cors()); // Permitir requisições do frontend
 
 // Rota para a página inicial
 app.get("/", (req, res) => {
+  console.log("Requisição recebida para:", req.method, req.url);
   res.send("Bem-vindo à API de Gatos! Adicione /cats para ver os dados.");
 });
 
 // Rota para buscar todos os gatos
 app.get("/cats", (req, res) => {
+  console.log("Requisição recebida para:", req.method, req.url);
   fs.readFile(filePath, "utf8", (err, data) => {
     if (err) {
       console.error("Erro ao ler os dados:", err);
@@ -61,7 +63,7 @@ app.post("/cats", (req, res) => {
 
 // Rota para deletar um gato pelo ID
 app.delete("/cats/:id", (req, res) => {
-  fs.readFile("./data/cats.json", "utf8", (err, data) => {
+  fs.readFile(filePath, "utf8", (err, data) => {
     if (err) {
       res.status(500).send("Erro ao ler os dados.");
       return;
@@ -71,7 +73,7 @@ app.delete("/cats/:id", (req, res) => {
     const catId = parseInt(req.params.id);
     const updatedCats = cats.filter(cat => cat.id !== catId);
 
-    fs.writeFile("./data/cats.json", JSON.stringify(updatedCats, null, 2), (err) => {
+    fs.writeFile(filePath, JSON.stringify(updatedCats, null, 2), (err) => {
       if (err) {
         res.status(500).send("Erro ao excluir o gato.");
         return;
@@ -95,7 +97,7 @@ app.put("/cats/:id", (req, res) => {
       cat.id === catId ? { ...cat, ...req.body } : cat
     );
 
-    fs.writeFile("./data/cats.json", JSON.stringify(updatedCats, null, 2), (err) => {
+    fs.writeFile(filePath, JSON.stringify(updatedCats, null, 2), (err) => {
       if (err) {
         res.status(500).send("Erro ao atualizar o gato.");
         return;
